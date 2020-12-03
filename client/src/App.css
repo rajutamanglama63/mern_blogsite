@@ -1,0 +1,143 @@
+:root{
+    --light-green: #299;
+    --dark-green: #277;
+}
+*{
+    margin: 0;
+    padding: 0;
+    /* font-family: Georgia; */
+    box-sizing: border-box;
+}
+
+/* LAYOUT */
+
+header{
+    background-image: url(./images/header.jpg);
+    background-position: center;
+	height: 20rem;
+	background-size: cover;
+}
+.nav-bar{
+    background-color: var(--dark-green);
+}
+.nav{
+    width: 90%;
+    margin: 0 auto;
+    display: flex;
+    justify-content: space-between;
+}
+.logo{
+    font-family: Lucida, sans-serif;
+    padding: 1rem 0;
+    font-weight: bolder;
+}
+.Add-Article{
+    font-family: sans-serif;
+    padding: 1rem 0;
+    color: rgb(43, 35, 35);
+}
+.footer{
+    background-color: #344;
+    height: 2rem;
+    left: 0;
+    bottom: 0;
+    width: 100%;
+    margin-top: 1rem;
+}
+.container{
+    margin: 0 auto;
+    width: 90%;
+}
+.author{
+    border: 1px solid black;
+    padding: .3rem;
+    background-color: var(--light-green);
+    color: aliceblue;
+}
+.forms{
+    margin: 2rem 0;
+    font-family: Georgia;
+}
+.container-form{
+    width: 50%;
+    margin: 0 auto;
+}
+.input-field{
+    width: 100%;
+    margin: 1rem 0;
+    padding: .5rem;
+}
+.textarea{
+    width: 100%;
+    margin: 1rem 0;
+    padding-bottom: 4rem;
+    padding-left: .5rem;
+    padding-top: 1rem;
+}
+.btn-post{
+    padding: .8rem;
+    background-color: var(--light-green);
+    color: #fff;
+    border: none;
+    transition: .5s ease;
+}
+.btn-post:hover{
+    background-color: var(--dark-green);
+    color: black;
+}
+
+
+
+
+/* TYPOGRAPHY */
+h1{
+    text-align: center;
+    padding-top: 6rem;
+    color: whitesmoke;
+    font-family: Georgia;
+}
+.color{
+    color: var(--light-green);
+}
+.programming{
+    color: navajowhite;
+    font-family: sans-serif;
+    text-decoration: none;
+}
+.blog{
+    color: aquamarine;
+}
+h2{
+    margin-top: 1rem;
+    margin-bottom: 1rem;
+    font-family: Georgia;
+}
+p{
+    margin-bottom: 1rem;
+    color: #171717;
+	opacity: 0.75;
+}
+.add-link{
+    text-decoration: none;
+    border: 1px solid grey;
+    padding: .5rem;
+    margin: .4rem;
+    color: aliceblue;
+    background-color: #171717;
+    transition: .6s ease;
+}
+.add-link:hover{
+    background-color: #383737;
+    color: black;
+}
+.loading{
+    margin-top: 1rem;
+    text-align: center;
+}
+.form-header{
+    color: var(--dark-green);
+    margin-top: 2rem;
+    font-family: sans-serif;
+    text-align: center;
+    font-weight: 100;
+}
